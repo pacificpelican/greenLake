@@ -8,3 +8,10 @@ Layout: greenlake
   margin: 0 auto;
   max-width: 1248px;
   width: 95%; }
+
+
+li
+ {
+  padding: 0 0.5rem;
+  font-weight: bold;
+  } 

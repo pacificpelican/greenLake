@@ -15,3 +15,8 @@ January 26, 2015
 v0.0.3
 January 26, 2015
 -set jquery as a dependency of Bootstrap on functions.php
+
+v0.0.4
+January 26, 2015
+-added padding to li on greenlake.css for menu readability
+-> this makes the theme more usable out of the box
