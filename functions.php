@@ -174,11 +174,10 @@ $themeloc = esc_url( get_template_directory_uri() );
 
 
 wp_register_script( "jqry", $srcjqry );
-wp_register_script( "bootstrapjs", $srcbootstrapjs );
+wp_register_script( "bootstrapjs", $srcbootstrapjs, array( 'jqry' ) );
 
 
-wp_enqueue_script( "jqry" );
-wp_enqueue_script( "bootstrap" );
+wp_enqueue_script( "bootstrapjs" );
 
 
 

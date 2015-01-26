@@ -11,3 +11,7 @@ v0.0.2
 January 26, 2015
 -moved menu to the top of page
 -added containerportOFF div that can easily be used to style by removing OFF
+
+v0.0.3
+January 26, 2015
+-set jquery as a dependency of Bootstrap on functions.php
