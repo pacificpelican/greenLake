@@ -148,15 +148,22 @@ $themeloc = esc_url( get_template_directory_uri() );
 
 	$gl_bootstrap_theme = "$themeloc/layouts/bootstrap-theme.min.css";
 
+	$gl_css = "$themeloc/layouts/greenlake.css";
+
 
 	wp_register_style( "bootstrapcss", $gl_bootstrap_css );
 
 	wp_register_style( "bootstrap-theme", $gl_bootstrap_theme );
 
+	wp_register_style( "glcss", $gl_css );
+
+
 
 	wp_enqueue_style( "bootstrapcss" );
 
 	wp_enqueue_style( "bootstrap-theme" );
+
+	wp_enqueue_style( "glcss" );
 
 
 //  ----------------------------
