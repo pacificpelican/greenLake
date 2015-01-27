@@ -3,12 +3,21 @@ Theme Name: Green Lake
 Layout: greenlake
 */
 
+#containerzero {
+  width: 99%; }
+
+
 #containerport {
   padding: 0 0.5rem;
   margin: 0 auto;
   max-width: 1248px;
   width: 95%; }
-
+/*
+This #containerport section is off by default in Green Lake theme.
+It can be used to make the content area centered after 1248px.
+Or its instructions could be moved to #containerzero, and then
+	the top menu will be in the centered middle area
+*/
 
 li
  {

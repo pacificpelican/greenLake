@@ -20,3 +20,8 @@ v0.0.4
 January 26, 2015
 -added padding to li on greenlake.css for menu readability
 -> this makes the theme more usable out of the box
+
+v0.0.5
+January 26, 2015
+-assigned 99% width to all-containing div #containerzero
+-> this is to avoid a scroll arrow at bottom of screen
