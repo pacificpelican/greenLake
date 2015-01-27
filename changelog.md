@@ -38,3 +38,9 @@ v0.2.1
 January 27, 2015
 -renaming of variables for wp_register_script &c. in functions.php 
 -new yoga-friendly screenshot
+
+v0.2.2
+January 27, 2015
+-basic media query CSS when using #containerport (which is set to
+	#containerportOFF in heeder.php by defulat) so the spacing
+	isn't excessive on mobile views
