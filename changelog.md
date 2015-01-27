@@ -33,3 +33,8 @@ January 27, 2015
 v0.2.0
 January 27, 2015
 -switched to Foundation from Bootstrap
+
+v0.2.1
+January 27, 2015
+-renaming of variables for wp_register_script &c. in functions.php 
+-new yoga-friendly screenshot
