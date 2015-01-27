@@ -25,3 +25,7 @@ v0.0.5
 January 26, 2015
 -assigned 99% width to all-containing div #containerzero
 -> this is to avoid a scroll arrow at bottom of screen
+
+v0.1.0
+January 27, 2015
+-added screenshot
