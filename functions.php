@@ -144,16 +144,16 @@ $themeloc = esc_url( get_template_directory_uri() );
 
 // -----------------------------
 
-	$gl_bootstrap_css = "$themeloc/layouts/bootstrap.min.css";
+	$gl_bootstrap_css = "$themeloc/layouts/foundation.min.css";
 
-	$gl_bootstrap_theme = "$themeloc/layouts/bootstrap-theme.min.css";
+//	$gl_bootstrap_theme = "$themeloc/layouts/bootstrap-theme.min.css";
 
 	$gl_css = "$themeloc/layouts/greenlake.css";
 
 
 	wp_register_style( "bootstrapcss", $gl_bootstrap_css );
 
-	wp_register_style( "bootstrap-theme", $gl_bootstrap_theme );
+//	wp_register_style( "bootstrap-theme", $gl_bootstrap_theme );
 
 	wp_register_style( "glcss", $gl_css );
 
@@ -161,7 +161,7 @@ $themeloc = esc_url( get_template_directory_uri() );
 
 	wp_enqueue_style( "bootstrapcss" );
 
-	wp_enqueue_style( "bootstrap-theme" );
+//	wp_enqueue_style( "bootstrap-theme" );
 
 	wp_enqueue_style( "glcss" );
 
@@ -170,7 +170,7 @@ $themeloc = esc_url( get_template_directory_uri() );
 
 	
 	$srcjqry = "$themeloc/js/jquery-1.11.2.min.js";
-	$srcbootstrapjs = "$themeloc/js/bootstrap.min.js";
+	$srcbootstrapjs = "$themeloc/js/foundation.min.js";
 
 
 wp_register_script( "jqry", $srcjqry );

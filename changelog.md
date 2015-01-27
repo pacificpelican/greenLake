@@ -29,3 +29,7 @@ January 26, 2015
 v0.1.0
 January 27, 2015
 -added screenshot
+
+v0.2.0
+January 27, 2015
+-switched to Foundation from Bootstrap
