@@ -44,3 +44,7 @@ January 27, 2015
 -basic media query CSS when using #containerport (which is set to
 	#containerportOFF in heeder.php by defulat) so the spacing
 	isn't excessive on mobile views
+
+v0.2.3
+January 27, 2015
+-info added to style.css; license of Foundation, clarifications etc.
