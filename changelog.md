@@ -48,3 +48,7 @@ January 27, 2015
 v0.2.3
 January 27, 2015
 -info added to style.css; license of Foundation, clarifications etc.
+
+v0.2.4
+January 28, 2015
+-added navigation.js back
