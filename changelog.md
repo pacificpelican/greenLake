@@ -36,7 +36,7 @@ January 27, 2015
 
 v0.2.1
 January 27, 2015
--renaming of variables for wp_register_script &c. in functions.php 
+-renaming of variables for wp_register_script &c. in functions.php
 -new yoga-friendly screenshot
 
 v0.2.2
@@ -52,3 +52,7 @@ January 27, 2015
 v0.2.4
 January 28, 2015
 -added navigation.js back
+
+v0.2.5
+February 3, 2015
+-limited width of search widget using .widget_search in portagebay.css

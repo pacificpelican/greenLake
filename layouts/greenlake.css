@@ -30,4 +30,8 @@ li
  {
   padding: 0 0.5rem;
   font-weight: bold;
-  } 
+  }
+
+.widget_search {
+      width: 300px;
+  }
