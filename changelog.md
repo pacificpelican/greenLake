@@ -56,3 +56,8 @@ January 28, 2015
 v0.2.5
 February 3, 2015
 -limited width of search widget using .widget_search in portagebay.css
+
+v0.2.6
+February 21, 2015
+-copy changes: no more theme saying "sorry"
+
