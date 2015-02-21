@@ -100,6 +100,17 @@ add_action( 'widgets_init', 'greenlake_widgets_init' );
  * Enqueue scripts and styles.
  */
 function greenlake_scripts() {
+
+//  ----------------------------
+	$srcjqry = "$themeloc/js/jquery-1.11.2.min.js";
+	$srcfoundationjs = "$themeloc/js/foundation.min.js";
+
+		wp_register_script( "jqry", $srcjqry );
+		wp_register_script( "foundationjs", $srcfoundationjs, array( 'jqry' ) );
+
+		wp_enqueue_script( "foundationjs" );
+//  ----------------------------
+
 	wp_enqueue_style( 'greenlake-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'greenlake-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
@@ -158,20 +169,7 @@ $themeloc = esc_url( get_template_directory_uri() );
 
 	wp_enqueue_style( "glcss" );
 
-
-//  ----------------------------
-
 	
-	$srcjqry = "$themeloc/js/jquery-1.11.2.min.js";
-	$srcfoundationjs = "$themeloc/js/foundation.min.js";
-
-
-wp_register_script( "jqry", $srcjqry );
-wp_register_script( "foundationjs", $srcfoundationjs, array( 'jqry' ) );
-
-
-wp_enqueue_script( "foundationjs" );
-
 
 
 								}

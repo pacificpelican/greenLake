@@ -61,3 +61,6 @@ v0.2.6
 February 21, 2015
 -copy changes: no more theme saying "sorry"
 
+v0.2.7
+February 21, 2015
+-responsive nav uses Unicode hamburger button '☰' instead of 'primary menu'
