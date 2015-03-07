@@ -102,6 +102,7 @@ add_action( 'widgets_init', 'greenlake_widgets_init' );
 function greenlake_scripts() {
 
 //  ----------------------------
+	$themeloc = esc_url( get_template_directory_uri() );
 	$srcjqry = "$themeloc/js/jquery-1.11.2.min.js";
 	$srcfoundationjs = "$themeloc/js/foundation.min.js";
 

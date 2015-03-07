@@ -64,3 +64,7 @@ February 21, 2015
 v0.2.7
 February 21, 2015
 -responsive nav uses Unicode hamburger button '☰' instead of 'primary menu'
+
+v0.2.8
+February 21, 2015
+-bugfix: functions.php $themeloc variable was only declared inside one function; had to be added to other one
