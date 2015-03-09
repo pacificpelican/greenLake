@@ -72,3 +72,11 @@ February 21, 2015
 v0.2.9
 March 9, 2015
 -added LICENSE.txt with GNU GPL v2 (there were links to it already but now there's a text copy of it in the main dir)
+
+v0.2.10
+March 9, 2015
+-a little space on the left edge: div { padding-left: 2px; }
+-added greenlake2.css with some of the Foundation 5.5 styling
+-removed active enqueueing of jQuery and Foundation
+-close to ready for 0.3: fewer assets loading by default
+

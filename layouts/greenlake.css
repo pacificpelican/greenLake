@@ -1,6 +1,7 @@
 /*
 Theme Name: Green Lake
 Layout: greenlake
+Green Lake theme (c) 2015 Dan McKeown http://danmckeown.info
 */
 
 #containerzero {
@@ -36,3 +37,6 @@ li
       width: 300px;
   }
   
+div {
+    padding-left: 2px;
+}
