@@ -103,11 +103,11 @@ function greenlake_scripts() {
 
 //  ----------------------------
 	$themeloc = esc_url( get_template_directory_uri() );
-	$srcjqry = "$themeloc/js/jquery-1.11.2.min.js";
-	$srcfoundationjs = "$themeloc/js/foundation.min.js";
+//	$srcjqry = "$themeloc/js/jquery-1.11.2.min.js";
+//	$srcfoundationjs = "$themeloc/js/foundation.min.js";
 
-		wp_register_script( "jqry", $srcjqry );
-		wp_register_script( "foundationjs", $srcfoundationjs, array( 'jqry' ) );
+//		wp_register_script( "jqry", $srcjqry );
+//		wp_register_script( "foundationjs", $srcfoundationjs, array( 'jqry' ) );
 
 //		wp_enqueue_script( "foundationjs" );
 //  ----------------------------
@@ -156,13 +156,11 @@ $themeloc = esc_url( get_template_directory_uri() );
 
 // -----------------------------
 
-	$gl_foundation_css = "$themeloc/layouts/foundation.min.css";
 
 	$gl_css = "$themeloc/layouts/greenlake.css";
 	$gl2_css = "$themeloc/layouts/greenlake2.css";
 
 
-	wp_register_style( "foundationcss", $gl_foundation_css );
 
 	wp_register_style( "glcss", $gl_css );
 	wp_register_style( "glcss2", $gl2_css );

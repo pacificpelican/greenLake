@@ -86,3 +86,6 @@ March 9, 2015
 -Foundation CSS minified file removed (some styles moved to greenlake2.css in 0.2.10)
 -tagging 0.3!!!
 
+v0.3.1
+March 9, 2015
+-comment-out and deletion for now-removed files in functions.php (bugfix)
