@@ -80,3 +80,9 @@ March 9, 2015
 -removed active enqueueing of jQuery and Foundation
 -close to ready for 0.3: fewer assets loading by default
 
+v0.3.0
+March 9, 2015
+-Foundation and jQuery JS removed for now
+-Foundation CSS minified file removed (some styles moved to greenlake2.css in 0.2.10)
+-tagging 0.3!!!
+
