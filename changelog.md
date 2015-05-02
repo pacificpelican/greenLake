@@ -36,7 +36,7 @@ January 27, 2015
 
 v0.2.1
 January 27, 2015
--renaming of variables for wp_register_script &c. in functions.php
+-renaming of variables for wp_register_script &c. in functions.php 
 -new yoga-friendly screenshot
 
 v0.2.2
@@ -53,39 +53,15 @@ v0.2.4
 January 28, 2015
 -added navigation.js back
 
-v0.2.5
-February 3, 2015
--limited width of search widget using .widget_search in portagebay.css
-
-v0.2.6
-February 21, 2015
--copy changes: no more theme saying "sorry"
-
-v0.2.7
-February 21, 2015
--responsive nav uses Unicode hamburger button '☰' instead of 'primary menu'
-
-v0.2.8
-February 21, 2015
--bugfix: functions.php $themeloc variable was only declared inside one function; had to be added to other one
-
-v0.2.9
-March 9, 2015
--added LICENSE.txt with GNU GPL v2 (there were links to it already but now there's a text copy of it in the main dir)
-
-v0.2.10
-March 9, 2015
--a little space on the left edge: div { padding-left: 2px; }
--added greenlake2.css with some of the Foundation 5.5 styling
--removed active enqueueing of jQuery and Foundation
--close to ready for 0.3: fewer assets loading by default
-
 v0.3.0
-March 9, 2015
--Foundation and jQuery JS removed for now
--Foundation CSS minified file removed (some styles moved to greenlake2.css in 0.2.10)
--tagging 0.3!!!
+January 28, 2015
+-FORKED this theme from master greenLake to Green Lake wre5he3os1ot
+-added class names that use the Foundation grid
 
 v0.3.1
-March 9, 2015
--comment-out and deletion for now-removed files in functions.php (bugfix)
+Febraury 23, 2015
+-new screenshot
+
+v0.3.2
+Febraury 23, 2015
+-readme.md update: added a description of the way the layout looks

@@ -7,9 +7,9 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area column">
 		<main id="main" class="site-main" role="main">
-
+	
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
@@ -28,5 +28,8 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
+	<div id="greenlakesidebar" class="sidebararea-area column">
 <?php get_sidebar(); ?>
+	</div><!-- #greenlakesidebar -->
+	
 <?php get_footer(); ?>
