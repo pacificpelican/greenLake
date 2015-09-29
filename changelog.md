@@ -94,3 +94,7 @@ v0.3.2
 May 17, 2015
 -update layouts/greenlake2.css with license link and spelling correction
 -update to greenlake branding in header.php
+
+v0.3.3
+Sept. 28, 2015
+-change the_posts_navigation() to the_posts_pagination() in index.php
