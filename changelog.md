@@ -2,7 +2,7 @@ changelog for Green Lake theme http://djmcloud.danieljmckeown.com/greenlake/
 
 v0.0.1
 January 26, 2015
--created initail version based on current versions of _s and Bootstrap
+-created initial version based on current versions of Underscores.me and Bootstrap
 -made spacing corrections for area between categories and tags &c.
 -slightly changed some of the 404 copy
 -added minified Bootstrap CSS and JavaScript (plus jQuery)
@@ -89,3 +89,8 @@ March 9, 2015
 v0.3.1
 March 9, 2015
 -comment-out and deletion for now-removed files in functions.php (bugfix)
+
+v0.3.2
+May 17, 2015
+-update layouts/greenlake2.css with license link and spelling correction
+-update to greenlake branding in header.php

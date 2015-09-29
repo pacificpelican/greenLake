@@ -20,12 +20,12 @@
 
 <div class="supermegacontainer" id="containerzero">
 <nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php _e( '☰', '_s' ); ?></button>
+			<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php _e( '☰', 'greenlake' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
 <div class="megacontainer" id="containerportOFF">
 <div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', '_s' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'greenlake' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
@@ -33,8 +33,7 @@
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 		</div><!-- .site-branding -->
 
-		
+
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
-	
