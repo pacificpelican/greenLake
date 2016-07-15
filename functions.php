@@ -168,11 +168,11 @@ $themeloc = esc_url( get_template_directory_uri() );
 
 //	wp_enqueue_style( "foundationcss" );
 
-	wp_enqueue_style( "glcss2" );
-	wp_enqueue_style( "glcss" );
+//	wp_enqueue_style( "glcss2" );
+//	wp_enqueue_style( "glcss" );
 
 
-	
+
 
 
 								}

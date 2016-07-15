@@ -33,7 +33,6 @@
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
 		</div><!-- .site-branding -->
 
-
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

@@ -1,4 +1,5 @@
 changelog for Green Lake theme http://djmcloud.danieljmckeown.com/greenlake/
+by Dan McKeown http://danmckeown.info
 
 v0.0.1
 January 26, 2015
@@ -98,3 +99,8 @@ May 17, 2015
 v0.3.3
 Sept. 28, 2015
 -change the_posts_navigation() to the_posts_pagination() in index.php
+
+v0.4.0-dev
+July 15, 2016
+-remove Foundation style sheets to simplify initial styling
+-make "the loop" in index.php, single.php and page.php code more readable to me
