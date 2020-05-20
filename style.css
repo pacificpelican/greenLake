@@ -2,9 +2,9 @@
 Theme Name: Green Lake
 Theme URI: http://djmcloud.danieljmckeown.com/greenlake/
 Author: Dan McKeown
-Author URI: http://danmckeown.info
-Description: Love Birds Consulting starter theme 2015
-Version: 0.4.0-alpha-2
+Author URI: https://danmckeown.info
+Description: Love Birds Consulting starter theme
+Version: 0.4.0-alpha-3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: greenlake
@@ -50,7 +50,7 @@ Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 --------------------------------------------------------------*/
 html {
-	font-family: sans-serif;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
 }
