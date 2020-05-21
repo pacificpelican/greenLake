@@ -4,7 +4,7 @@ Theme URI: http://djmcloud.danieljmckeown.com/greenlake/
 Author: Dan McKeown
 Author URI: https://danmckeown.info
 Description: Love Birds Consulting starter theme
-Version: 0.4.0-alpha-3
+Version: 0.4.0-alpha-4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: greenlake
@@ -539,6 +539,10 @@ a:active {
 /*--------------------------------------------------------------
 5.2 Menus
 --------------------------------------------------------------*/
+div.menu li.page_item {
+	margin-right: 10pt;
+}
+
 .main-navigation {
 	clear: both;
 	display: block;

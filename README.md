@@ -1,7 +1,11 @@
-readme for [Green Lake theme](http://djmcloud.danieljmckeown.com/greenlake/) by [Dan McKeown](http://danmckeown.info):
+# [Green Lake theme](http://djmcloud.danieljmckeown.com/greenlake/)
 
-Green Lake theme is the starter theme for some projects created by [Love Birds Consulting](http://lovebirdsconsulting.com).
+![green-lake](./screenshot.jpg)
 
-It runs on [WordPress](http://wordpress.org) and utilizes the Automattic starter theme _s (aka [Underscores](http://underscores.me)) and the Zurb front-end library [Foundation](http://foundation.zurb.com/).
+*by [Dan McKeown](http://danmckeown.info)*
 
-It was started in January 2015 and more information is available in the [style.css](style.css) file.
+- **Green Lake** theme is a free [WordPress](http://wordpress.org) starter theme for some projects created by [Love Birds Consulting](http://lovebirdsconsulting.com).
+
+- It was based on a 2015 version of the Automattic starter theme _s (aka [Underscores](http://underscores.me)).
+
+- It is licensed under the GNU GPL, copyright 2015 and more information is available in the [style.css](style.css) file.
